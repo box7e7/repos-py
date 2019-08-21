@@ -3,7 +3,7 @@ def duplicate_count(text):
     list1=[]
     Result=[]
     str=text
-    print(len(str))
+    
     for i in range(0,len(str)):
         list1.append(str[i].lower())
                
