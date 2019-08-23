@@ -1,5 +1,5 @@
 def number_of_pairs(gloves):
-    k=0
+    
     count=0
     list1=[]
     for i in gloves:
