@@ -1,9 +1,4 @@
 def fizzbuzz_plusplus(list1, list2):
-  # TODO: complete
-  
-  
-  
-
 
     result=[]
     var=1
