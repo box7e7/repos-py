@@ -9,5 +9,4 @@ for i in serie1.index:
 	serie1[i]=dict1[serie1[i]]
 
 df.loc[serie1.index, 'origin']=serie1
-print(df.origin)
 df.to_csv('out.csv',index=False)
