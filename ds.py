@@ -28,7 +28,9 @@ le = preprocessing.LabelEncoder()
 
 ####Standard scaler####
 from sklearn.preprocessing import StandardScaler
-X=X.apply(lambda col: le.fit_transform(col)) 
+scaler = StandardScaler()
+scaler.fit(X)
+X=scaler.transform(X)
 
 #####KNN#####
 from sklearn.neighbors import KNeighborsClassifier
