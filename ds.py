@@ -25,6 +25,7 @@ print(results.summary())
 ####Label Encoder####
 from sklearn import preprocessing
 le = preprocessing.LabelEncoder()
+X=X.apply(lambda x: le.fit_transform(x)) 
 
 ####Standard scaler####
 from sklearn.preprocessing import StandardScaler
